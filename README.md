@@ -1,1 +1,1 @@
-# FSE_Cognizant_Upskilling
+# FSE_Cognizant_Practice
