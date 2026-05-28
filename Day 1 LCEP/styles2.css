@@ -1,0 +1,300 @@
+/* =====================================
+   Universal Selector
+===================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =====================================
+   Body Styles
+===================================== */
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+
+    background-image: url("https://via.placeholder.com/1200x800");
+
+    background-size: cover;
+
+    background-color: rgba(240, 244, 247, 0.9);
+
+    color: #333;
+
+    line-height: 1.8;
+}
+
+/* =====================================
+   Header Styles
+===================================== */
+
+#mainHeader {
+
+    background: linear-gradient(to right,
+            #0052D4,
+            #4364F7,
+            #6FB1FC);
+
+    padding: 20px;
+
+    text-align: center;
+}
+
+/* =====================================
+   Navigation Styles
+===================================== */
+
+.navMenu {
+
+    list-style-type: none;
+
+    list-style-position: inside;
+
+    margin-top: 15px;
+}
+
+.navMenu li {
+
+    display: inline-block;
+
+    margin: 10px;
+
+    padding: 10px;
+}
+
+/* =====================================
+   Link Styles
+===================================== */
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited {
+    color: lightgray;
+}
+
+/* =====================================
+   Heading Styles
+===================================== */
+
+h2 {
+
+    color: #0052D4;
+
+    font-size: 32px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 20px;
+
+    text-align: center;
+}
+
+/* Grouping Selector */
+h3,
+p {
+
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* =====================================
+   Event Card Styles
+===================================== */
+
+.eventCard {
+
+    background-color: white;
+
+    border: 2px solid #0052D4;
+
+    padding: 20px;
+
+    margin: 20px auto;
+
+    width: 80%;
+
+    border-radius: 10px;
+
+    outline: 2px dashed gray;
+}
+
+/* =====================================
+   CTA Button Styles
+===================================== */
+
+.cta-button {
+
+    background-color: #007BFF;
+
+    color: white;
+
+    padding: 10px 20px;
+
+    border: none;
+
+    margin-top: 10px;
+
+    cursor: pointer;
+}
+
+/* =====================================
+   Table Styles
+===================================== */
+
+table {
+
+    width: 90%;
+
+    margin: auto;
+
+    border-collapse: collapse;
+
+    text-align: center;
+}
+
+th,
+td {
+
+    border: 1px solid black;
+
+    padding: 15px;
+}
+
+th {
+
+    background-color: #0052D4;
+
+    color: white;
+}
+
+/* Zebra Striping */
+
+tr:nth-child(even) {
+
+    background-color: #f2f2f2;
+}
+
+/* =====================================
+   Form Styles
+===================================== */
+
+form {
+
+    width: 70%;
+
+    margin: auto;
+
+    padding: 20px;
+
+    background-color: white;
+}
+
+input,
+textarea {
+
+    width: 100%;
+
+    padding: 12px;
+
+    margin-top: 10px;
+
+    margin-bottom: 15px;
+
+    border: 1px solid gray;
+}
+
+/* Outline Example */
+
+input:focus,
+textarea:focus {
+
+    outline: 3px solid orange;
+}
+
+/* =====================================
+   Multi Column Layout
+===================================== */
+
+.newsArticle {
+
+    column-count: 2;
+
+    column-gap: 30px;
+
+    column-rule: 1px solid gray;
+
+    padding: 20px;
+
+    text-align: justify;
+}
+
+/* =====================================
+   Visibility vs Display
+===================================== */
+
+.hiddenBox {
+
+    visibility: hidden;
+}
+
+.noneBox {
+
+    display: none;
+}
+
+/* =====================================
+   Responsive Design
+===================================== */
+
+@media screen and (max-width: 768px) {
+
+    body {
+
+        font-size: 14px;
+    }
+
+    .navMenu li {
+
+        display: block;
+
+        margin: 5px 0;
+    }
+
+    .eventCard {
+
+        width: 95%;
+    }
+
+    img {
+
+        width: 90vw;
+        height: auto;
+    }
+
+    h2 {
+
+        font-size: 24px;
+    }
+
+    table {
+
+        width: 100%;
+    }
+}
