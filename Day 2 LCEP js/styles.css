@@ -1,0 +1,77 @@
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f4f4f4;
+
+    margin: 20px;
+}
+
+header {
+
+    background-color: #007BFF;
+
+    color: white;
+
+    padding: 20px;
+
+    text-align: center;
+}
+
+#eventContainer {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+    margin-top: 20px;
+}
+
+.eventCard {
+
+    background-color: white;
+
+    border: 1px solid gray;
+
+    padding: 20px;
+
+    width: 250px;
+
+    border-radius: 10px;
+}
+
+button {
+
+    background-color: green;
+
+    color: white;
+
+    padding: 10px;
+
+    border: none;
+
+    cursor: pointer;
+}
+
+button:hover {
+
+    background-color: darkgreen;
+}
+
+.error {
+
+    color: red;
+
+    font-size: 14px;
+}
+
+#loading {
+
+    display: none;
+
+    color: blue;
+
+    font-weight: bold;
+}
